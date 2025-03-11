@@ -1,0 +1,27 @@
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  
+    input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      background: rgba(255, 255, 255, 0.15);
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    input::placeholder {
+      color: #bbb;
+    }
+  
+    input:focus {
+      outline: none;
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+  

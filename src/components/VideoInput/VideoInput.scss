@@ -1,0 +1,41 @@
+.video-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  input::placeholder {
+    color: #ddd;
+  }
+
+  input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  button {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background: linear-gradient(135deg, #ff0080, #ff512f);
+    transform: scale(1.1);
+  }
+}
